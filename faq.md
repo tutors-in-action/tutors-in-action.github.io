@@ -1,5 +1,5 @@
 ---
-layout: generic
+layout: home
 title: FAQ
 permalink: /faq/
 ---
