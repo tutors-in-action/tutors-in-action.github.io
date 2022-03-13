@@ -161,6 +161,7 @@ input, select, textarea {
 		font-size: 1rem;
 		font-weight: 300;
 		line-height: 1.65;
+		font-display: swap;
 	}
 
 	a {
