@@ -1,0 +1,4 @@
+---
+layout: impact
+permalink: /impact/
+---

@@ -1,0 +1,35 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+
+div.topnav {
+    background-color: #097276;
+    overflow: none;
+    padding: 30px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+div.topnav a {
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1em;
+}
+
+div.topnav a:hover {
+    color: #097276;
+    background-color: #ffffff;
+}
+
+.active{
+    color: #097276;
+    background-color: #c3e1d7;
+}
