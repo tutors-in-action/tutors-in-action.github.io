@@ -2216,7 +2216,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #000000;
+			background-color: #097276;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -3670,7 +3670,7 @@ input, select, textarea {
 			background-color: inherit;
 			border-radius: 0.5rem;
 			margin-bottom: 2rem;
-			z-index: 1;
+			z-index: 2;
 		}
 
 		.banner.style2 .image {
@@ -4280,7 +4280,7 @@ input, select, textarea {
 			width: 40rem;
 			max-width: 100%;
 			margin-bottom: 2rem;
-			z-index: 1;
+			z-index: 2;
 		}
 
 		.banner.style5 .image {
@@ -5482,7 +5482,7 @@ input, select, textarea {
 			background-color: inherit;
 			border-radius: 0.5rem;
 			margin-bottom: 2rem;
-			z-index: 1;
+			z-index: 2;
 		}
 
 		.spotlight.style4 .image {
@@ -5662,7 +5662,7 @@ input, select, textarea {
 			background-color: inherit;
 			border-radius: 0.5rem;
 			margin-bottom: 2rem;
-			z-index: 1;
+			z-index: 2;
 		}
 
 		.spotlight.style5 .image {
@@ -6534,7 +6534,7 @@ input, select, textarea {
 				background-color: rgba(0, 0, 0, 0.5);
 				opacity: 0;
 				padding: 2rem;
-				z-index: 1;
+				z-index: 2;
 				font-size: 0.8rem;
 			}
 
@@ -6798,7 +6798,7 @@ input, select, textarea {
 			height: 100%;
 			cursor: pointer;
 			opacity: 0;
-			z-index: 2;
+			z-index: 3;
 		}
 
 			.gallery.style2 > .forward:before, .gallery.style2 > .backward:before {
@@ -6915,7 +6915,7 @@ input, select, textarea {
 				background-color: rgba(0, 0, 0, 0.5);
 				opacity: 0;
 				padding: 3rem;
-				z-index: 1;
+				z-index: 2;
 				font-size: 0.8rem;
 			}
 
@@ -7103,7 +7103,7 @@ input, select, textarea {
 		background-color: rgba(0, 0, 0, 0.75);
 		visibility: none;
 		opacity: 0;
-		z-index: 0;
+		z-index: 1;
 	}
 
 		.gallery.lightbox .modal:before {
@@ -7275,7 +7275,7 @@ input, select, textarea {
 			max-width: 100%;
 			position: relative;
 			width: 64rem;
-			z-index: 1;
+			z-index: 3;
 		}
 
 			.wrapper.style2 > .inner.medium {
@@ -8603,4 +8603,3 @@ input, select, textarea {
 				box-shadow: none !important;
 			}
 
-	

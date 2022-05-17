@@ -1,0 +1,115 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+
+div.topnav {
+    background-color: #097276;
+    overflow: none;
+    padding: 30px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10001;
+}
+
+div.topnav a {
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1em;
+}
+
+div.topnav a:hover {
+    color: #097276;
+    background-color: #ffffff;
+}
+
+.active{
+    color: #097276;
+    background-color: #c3e1d7;
+}
+
+.special{
+    color:aqua;
+}
+
+div.progressbar {
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+.pbouter{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                              rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
+
+.pbinner{
+    height:120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    box-shadow: 
+inset 4px 4px 6px -1px rgba(0,0,0,2),
+inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+-0.5px -0.5px 0px rgba(255,255,255,1),
+0.5px 0.5px 0px rgba(0,0,0,0.15),
+0px 12px 10px -10px rgba(0,0,0,0,0.05);
+}
+
+#number{
+    font-weight:600;
+    color: #555;
+}
+
+circle{
+    fill: none;
+    stroke: url(#GradientColor); 
+    stroke-width: 20px;
+    animation: anima 2s linear forwards;
+    margin: 50%;
+    stroke-dashoffset: 472;
+    stroke-dasharray: 472;
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left:0;
+    
+}
+
+@keyframes anima{
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+.row {
+    width: 150%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+.col {
+    width: 200px;
+  }
+
+footer{
+    background-color: #ffffff;
+}
+
+.f1{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
