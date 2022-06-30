@@ -1,6 +1,6 @@
 ---
-redirect:   https://forms.gle/xCPKwyrq43AbDsJy7
+redirect:   https://forms.gle/TXaaEHQY9cwXYqKf6
 layout:     redirect
 permalink: /tutor/
 ---
-<!--JULY TUTOR FORM-->
+<!--AUGUST TUTOR FORM-->
