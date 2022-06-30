@@ -1,5 +1,5 @@
 ---
-redirect:   https://forms.gle/TXaaEHQY9cwXYqKf6
+redirect:   https://forms.gle/ueCDgDNcdBwFbjy9A
 layout:     redirect
 permalink: /tutor/
 ---
