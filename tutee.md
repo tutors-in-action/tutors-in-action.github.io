@@ -1,5 +1,5 @@
 ---
-redirect:   https://forms.gle/QY41nEpnsnhn6jQh9
+redirect:   https://forms.gle/3Bx34EevJm3QBjH8A
 layout:     redirect
 permalink: /tutee/
 ---
