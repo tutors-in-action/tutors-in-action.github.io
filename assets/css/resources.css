@@ -1,0 +1,96 @@
+.subjectsodd {
+    background-color: #f9f2bc;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding: auto;
+    margin: 0px 0px 25px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    display: block;
+    border-width: 10px 10px 10px 10px;
+    width: 300px;
+    height: 300px;
+
+    
+}
+
+.subjectseven {
+    background-color: #c3e1d7;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding: auto;
+    margin: 0px 0px 25px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    display: block;
+    border-width: 10px 10px 10px 10px;
+    width: 300px;
+    height: 300px;
+
+    
+}
+
+.subjectextra {
+    background-color: goldenrod;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding: auto;
+    margin: 0px 0px 25px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    display: block;
+    border-width: 10px 10px 10px 10px;
+    width: 300px;
+    height: 300px;
+
+    
+}
+
+.button {
+    background-color: #fff8dd;
+    color: #097276;
+}
+
+
+.sec:nth-child(even) {
+    background-color: #f9f2bc;
+}
+.sec:nth-child(odd) {
+    background-color: #c3e1d7;
+
+
+}
+
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-style: inset;
+    margin-left: auto;
+  margin-right: auto;
+  
+  }
+
+.th {
+    text-align: center;
+    align-items: center;
+  }
+
+  tr:hover {background-color: #c3e1d7}
