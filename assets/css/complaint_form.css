@@ -20,7 +20,7 @@ body {
 
 form {
   display: grid;
-  grid-gap: -5px;
+  grid-gap: 1px;
 }
 
 label {
