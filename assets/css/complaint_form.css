@@ -26,7 +26,8 @@ label {
 }
 
 p {
-  margin-bottom: 2px;
+  margin-top: 2px;
+  margin-bottom: 5px;
 }
 
 input[type="text"],
