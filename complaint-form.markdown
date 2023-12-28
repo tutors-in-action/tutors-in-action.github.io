@@ -1,4 +1,4 @@
---
-layout: complaint form
+---
+layout:     complaint-form
 permalink: /complaint-form/
---
+---
