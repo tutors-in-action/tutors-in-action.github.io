@@ -48,6 +48,7 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  text-align: center;
 }
 
 button:hover {
