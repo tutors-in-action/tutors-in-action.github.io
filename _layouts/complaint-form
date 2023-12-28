@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Form | Tutors In Action</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+        <link rel="stylesheet" href="/assets/css/nav.css" />
+        <link rel="stylesheet" href="/assets/css/complaint_form.css">
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+		<link rel="shortcut icon" type="image/png" href="/assets/images/tia_ppbpm_favicon.png">
+   
+    <style>
+      head{text-align: center;}
+      body{text-align: center; }
+      div{text-align: center;}
+    </style>    
+</head>
+
+  <body class="is-preload">
+      <div class="topnav align-center" id="myTopnav">
+			<a href="/">Home</a>
+			<a href="/about/">About</a>
+      <a href="/contact/" class= "active">Contact</a>
+      <a href="/resources" >Resources </a>
+      <a href="/guideline1/" >Guideline </a>    
+		  </div>
+    <div class="container">
+        <h1>Complaint Form</h1>
+        <p>This complaint form (“this form”) serves as an official platform for tutors and/or tutees registered under Tutors In Action Malaysia (TIA) via the Tutor Registration Form and/or Tutee Registration Form to raise any problems faced whilst providing and/or receiving tutoring lessons under TIA.</p>
+        <form action="#" method="post" name="complaint-form">
+            <label for="fullName">Full Name</label><br>
+            <input type="text" id="fullName" name="fullName" required ><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required ><br><br>
+
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone" name="phone" required ><br><br>
+
+            <label>Acting Role</label><br>
+            <input type="radio" id="roleTutor" name="role" value="tutor" required>
+            <label for="roleTutor">Tutor</label>
+            <input type="radio" id="roleTutee" name="role" value="tutee" required>
+            <label for="roleTutee">Tutee</label><br><br>
+
+            <div id="tutorFields" style="display: none;">
+                <!-- Fields for the Tutor role -->
+                <label for="tuteeName">Tutee Name</label><br>
+                <p> Please provide us with the tutee whom you are lodging this complaint against. Kindly do not list all the tutees you teach.</p>
+                <input type="text" id="tuteeName" name="tuteeName"><br><br>
+
+                <label id="subjects">Subjects</label><br>
+                <p> Please state the subject you teach the tutee you are lodging this complaint against. Kindly do not list all the subjects you teach.</p>
+                <textarea  id="subjects" name="subjects" style="height: 70px; width: 400px;"></textarea><br><br>
+
+                <label for="detailsComplaint">Details of Complaint</label><br>
+                <p>Max. 1000 characters</p>
+                <textarea maxlength="1000" id="detailsComplaint" name="detailsComplaint" style="height: 200px; width: 400px;"></textarea><br><br>
+
+                <label>Have you ever reported this?</label><br>
+                <input type="radio" id="reportedYes" name="reported" value="Yes">
+                <label for="reportedYes">Yes</label>
+                <input type="radio" id="reportedNo" name="reported" value="No">
+                <label for="reportedNo">No</label><br><br>
+                <div id="datemedium" style="display: none;">
+                    <label>Please provide the date and medium (e.g., Telegram, Email) you used to file the complaint.</label><br>
+                    <input type="text" id="datemedium" name="datemedium">
+                </div></label><br><br><br>
+            </div>
+
+            <div id="tuteeFields" style="display: none;">
+                <!-- Fields for the Tutee role -->
+                <label for="tutorName">Tutor Name</label><br>
+                <p> Please provide us with the tutor whom you are lodging this complaint against.</p>
+                <input type="text" id="tutorName" name="tutorName"><br><br>
+
+                <label id="subjectsTutee">Subjects</label><br>
+                <p> Please state the subject taught by your tutor you are lodging this complaint against or the subject of the lesson you share with your fellow tutee whom you are lodging this complaint against. Kindly do not list all the subjects you have tutoring lessons under TIA.</p>
+                <textarea  id="subjectsTutee" name="subjectsTutee" style="height: 70px; width: 400px;"></textarea><br><br>
+                
+
+                <label for="detailsComplaintTutee">Details of Complaint</label><br>
+                <p>Max. 1000 characters</p>
+                <textarea maxlength="1000" id="detailsComplaintTutee" name="detailsComplaintTutee" style="height: 200px; width: 400px;"></textarea><br><br>
+
+                <label>Have you ever reported this?</label><br>
+                <input type="radio" id="reportedYesTutee" name="reportedTutee" value="Yes">
+                <label for="reportedYesTutee">Yes</label>
+                <input type="radio" id="reportedNoTutee" name="reportedTutee" value="No">
+                <label for="reportedNoTutee">No</label><br><br>
+                <div id="datemediumTutee" style="display: none;">
+                    <label>Please provide the date and medium (e.g., Telegram, Email) you used to file the complaint.</label><br>
+                    <input type="text" id="datemediumTutee" name="datemediumTutee">
+                </div></label><br><br>
+            </div>
+            <p>By submitting this complaint form, you acknowledge that you have read and consented to the following:</p>
+            <ul>
+                <li>Upon reviewing your complaint, we will contact you via e-mail or a messaging platform (e.g. Telegram, Whatsapp or Instagram) within 5 working days. In the event you do not receive a response from us about your issue, you are strongly encouraged to immediately reach out to us.</li>
+                <li>TIA will conduct due diligence in verifying all facts, within reason, to determine whether there is a triable case of if this complaint was untruthful.</li>
+                <li>TIA reserves the right to act as a third party mediator to resolve the conflict between yourself and the person(s) whom you are lodging this complaint against. As such, TIA has the right to commence resolution proceedings and a final interview stage wherein all parties involved and representatives of TIA will be in attendance.</li>
+                <li>If TIA finds that this complaint has been made untruthfully, you will be blacklisted from being a tutor and/or tutee under TIA.</li>
+                <li>The data provided in this form is subjected to our Privacy Policy.</li>
+            </ul>
+            <button type="submit" id="btn">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        // Show/hide tutor or tutee fields based on the selected role
+        const roleTutor = document.getElementById('roleTutor');
+        const roleTutee = document.getElementById('roleTutee');
+        const tutorFields = document.getElementById('tutorFields');
+        const tuteeFields = document.getElementById('tuteeFields');
+
+        roleTutor.addEventListener('change', () => {
+            if (roleTutor.checked) {
+                tutorFields.style.display = 'block';
+                tuteeFields.style.display = 'none';
+            } 
+            else {
+                tutorFields.style.display = 'none';
+            }
+        });
+
+        roleTutee.addEventListener('change', () => {
+            if (roleTutee.checked) {
+                tutorFields.style.display = 'none';
+                tuteeFields.style.display = 'block';
+            } else {
+                tuteeFields.style.display = 'none';
+            }
+        });
+
+
+         // Show/hide tutor or tutee date and medium based on past report
+        const reportedYes = document.getElementById('reportedYes');
+        const reportedYesTutee = document.getElementById('reportedYesTutee');
+        const reportedNo = document.getElementById('reportedNo');
+        const reportedNoTutee= document.getElementById('reportedNoTutee');
+        const datemedium = document.getElementById('datemedium');
+        const datemediumTutee = document.getElementById('datemediumTutee')
+
+        reportedYes.addEventListener('change', () => {
+            if (reportedYes.checked) {
+                datemedium.style.display = 'block';
+            } else {
+                datemedium.style.display = 'none';
+            } 
+    
+        });
+
+        reportedNo.addEventListener('change', () => {
+            if (reportedNo.checked) {
+                datemedium.style.display = 'none';
+            }else 
+                datemedium.style.display = 'block';
+    
+        });
+
+        reportedYesTutee.addEventListener('change', () => {
+            if (reportedYesTutee.checked) {
+                datemediumTutee.style.display = 'block';
+            } else {
+                datemediumTutee.style.display = 'none';
+            } 
+    
+        });
+
+        reportedNoTutee.addEventListener('change', () => {
+            if (reportedNoTutee.checked) {
+                datemediumTutee.style.display = 'none';
+            }else
+                datemediumTutee.style.display = 'block'; 
+        });
+        
+
+
+
+        //Responses of this form has been linked in the google sheet
+        window.addEventListener('load', e => {
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby9qisnORZwWGGEXFynAXlcYs6JPQKsrSvPpojNeDNl5umfQI1wB_CDn0_tGk3qJCwu/exec'
+        const form = document.forms['complaint-form']
+
+        form.addEventListener("submit", e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thank you! Your responses has been submitted successfully." ))
+        .then(() => { window.location.reload(); })
+        .catch(error => console.error('Error!', error.message))
+        })
+        })
+
+        
+    </script>
+</body>
+</html>
