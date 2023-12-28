@@ -11,7 +11,7 @@ body {
 
 .container {
   width: 50%;
-  margin: 20px auto;
+  margin: 10px auto;
   background-color: #fff;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -55,6 +55,7 @@ button {
 
 button:hover {
   background-color: #45a049;
+  margin: 0 auto;
 }
 
 /* Responsive design */
