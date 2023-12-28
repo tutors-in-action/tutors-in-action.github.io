@@ -20,13 +20,16 @@ body {
 
 form {
   display: grid;
-  grid-gap: 5px;
+  grid-gap: 1px;
 }
 
 label {
   font-weight: bold;
 }
 
+p {
+  margin-bottom: 5px;
+}
 
 input[type="text"],
 input[type="email"],
