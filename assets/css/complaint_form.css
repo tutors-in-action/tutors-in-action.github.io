@@ -82,8 +82,8 @@ button {
 }
 
 button:hover {
-  background-color: #fff;
-  text-align: center;
+  background-color: #fff8dd;
+  color: #fff;
 }
 
 /* Responsive design */
