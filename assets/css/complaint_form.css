@@ -78,12 +78,13 @@ button {
 		text-overflow: ellipsis;
 		overflow: hidden;
 	        text-align: center;
+	        margin: 0 auto;
   
 }
 
 button:hover {
-  background-color: #fff8dd;
-  color: #fff;
+  background-color: #fff;
+  color: #fff8dd;
 }
 
 /* Responsive design */
