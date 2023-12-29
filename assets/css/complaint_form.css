@@ -53,15 +53,8 @@ textarea {
 }
 
 button {
-    -moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-		border: 0;
+	        background-color: #fff8dd:	
+	        border: 0; 
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -84,7 +77,6 @@ button {
 
 button:hover {
   background-color: #fff;
-  color: #fff8dd;
 }
 
 /* Responsive design */
