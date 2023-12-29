@@ -67,18 +67,19 @@ button {
 		text-transform: uppercase;
 		white-space: nowrap;
 		font-size: 0.75rem;
-		max-width: 20rem;
+		max-width: 10rem;
 		height: 3.75em;
 		line-height: 3.75em;
 		border-radius: 3.75em;
 		padding: 0 2.5em;
 		text-overflow: ellipsis;
 		overflow: hidden;
+	        text-align: center;
   
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #097276;
 }
 
 /* Responsive design */
